@@ -45,7 +45,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/kbastani/spring-boot-microservice-config
+          uri: https://github.com/jiazibo/spring-boot-microservice-config
         health:
           repositories:
             movie:
@@ -78,7 +78,7 @@ spring:
         enabled: true
       server:
         git:
-          uri: https://github.com/kbastani/spring-boot-microservice-config
+          uri: https://github.com/jiazibo/spring-boot-microservice-config
         health:
           repositories:
             movie:
@@ -102,4 +102,4 @@ eureka:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: http://discovery.54.149.244.237.xip.io/eureka/
+      defaultZone: http://discovery：8761/eureka/
